@@ -26,6 +26,24 @@
   .w3-bar .w3-button {
     padding: 16px;
   }
+    
+    
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+    
+    
   </style>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SNVNW1WZ6"></script>
@@ -105,10 +123,18 @@ https://replit.com"> Click Here</a></p><br>
   <p class="w3-center w3-large">Sign up here!!</p>
 
   <div class="w3-row-padding" style="margin-top:64px">
-  <h1>Job Application Form</h1>
+    <div class="row">
+  <div class="column">
+ <h1>Job Application Form</h1>
   <div data-tf-widget="dPJ7VucZ" data-tf-iframe-props="title=Crypticode Application" data-tf-medium="snippet" style="width:670px;height:550px;" text-align= "center"></div><script src="//embed.typeform.com/next/embed.js"></script>
-  <h1>Website Order Form</h1>
+  </div>
+  <div class="column">
+    <h1>Website Order Form</h1>
   <div data-tf-widget="yDMDLYnB" data-tf-iframe-props="title=Website Order" data-tf-medium="snippet" style="width:670px;height:550px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+  </div>
+</div>
+ 
+ 
     </div>
   </div>
 </div>
