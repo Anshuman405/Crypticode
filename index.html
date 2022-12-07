@@ -46,6 +46,8 @@
       <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> LOGIN</a>
       <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+                <a href="#contact" >CONTACT</a>            
+
 
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -139,7 +141,37 @@
   </div>
 </div>
   
-  
+     <section class="testimonials w3-container w3-panel" style="padding: 50px;">
+      <h2 style="text-align: center;">- Some of our customer stories -</h2>
+      <div class="slideshow-container">
+
+      <div class="mySlides">
+        <p><q><em>The team at CONSULTCORP boosted my business by 500% in only 6 months! Their expertise helped me and my business to grow beyond what I thought it is possible.</em></q></p>
+        <p class="author"><strong>- John Keats, Founder of COMPANY-X</strong></p>
+      </div>
+
+      <div class="mySlides">
+        <p><q><em>CONSULTCORP helped me launch my idea in only 3 months! If there was not for CONSULTCORP team, I would probably not succeed.</em></q></p>
+        <p class="author"><strong>- Anne Johnson, Founder of COMPANY-Y</strong></p>
+      </div>
+
+      <div class="mySlides">
+        <p><q><em>The team at CONSULTCORP will help you steer your idea in the right direction, reducing all the risks you might encounter on your own! They surely did mine.</em></q></p>
+        <p class="author"><strong>- Dean Doe, Founder of COMPANY-Z</strong></p>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>      
+    </section>
+
   
   <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
   <h3>PRICING</h3>
@@ -156,6 +188,7 @@
           <h2 class="w3-wide">Free</h2>
  
         </li>
+       
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-black w3-padding-large">Sign Up</button>
         </li>
@@ -195,6 +228,25 @@
     </div>
   </div>
 </div>
+  
+  <div class="form w3-margin-top">
+        <div class="container w3-round-xlarge">
+          <form class="w3-highway-blue w3-padding-large w3-round-large">
+            <h3 style="text-align: center;"><i class="fa fa-check-square-o" style="font-size: 15px;"></i>Schedule a meeting</h3>
+            <label for="fname">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <label for="lname">Your email</label>
+            <input type="text" id="email" name="email" placeholder="Your email">
+            <label for="lname">Pick a date</label><br>
+            <input type="date" id="date" name="date" placeholder="Your date"><br><br>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <p>By submiting this form, you agree to our <a href="#" target="_blank">privacy policy</a></p><br>
+            <input class="w3-round-large" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </section>
 
 <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
 <footer class="w3-center w3-black w3-padding-64">
