@@ -14,10 +14,10 @@
 <div class="login-page">
   <div class="form">
     <form class="register-form">
-      <input type="text" id="nameTF" placeholder="Name" required/>
-      <input type="email" id="emailTF" placeholder="Email ID" required/>
-      <input type="password" id="passTF" placeholder="Password" required/>
-      <input type="password" id="confirmPassTF" placeholder="Confirm Password" required/>
+      <input type="text" id="nameTF" placeholder="Name" required name="textdata"/>
+      <input type="email" id="emailTF" placeholder="Email ID" required name="textdata"/>
+      <input type="password" id="passTF" placeholder="Password" required name="textdata"/>
+      <input type="password" id="confirmPassTF" placeholder="Confirm Password" required name="textdata"/>
 
       <button type="button" id="submitButton" onclick="handleLogin()" <a href="main.html"></a> <type>Create Account</button>
             
